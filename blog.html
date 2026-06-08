@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Technical blog by Alyaa Fasihah Mohamad about web development, backend systems and databases.">
+    <title>Blog | Alyaa Fasihah Mohamad</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Alyaa home">Hello👋🏻<span>.</span></a>
+        <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a class="active" href="blog.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero section-shell">
+            <p class="eyebrow">Technical blog</p>
+            <h1>Notes from building web systems, APIs and database-driven projects.</h1>
+            <p>Short technical articles based on the kind of development work I care about: practical interfaces, maintainable code and systems that help real users.</p>
+        </section>
+
+        <section class="section-shell compact">
+            <label class="search-box" for="blogSearch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input id="blogSearch" type="search" placeholder="Search articles by topic, project or technology">
+            </label>
+        </section>
+
+        <section class="section-shell blog-list">
+            <article class="blog-card" data-search="fastapi backend api malax assessment system">
+                <div class="card-top">
+                    <span class="pill">Backend</span>
+                </div>
+                <h2>Designing an API-First Assessment System for MalaX</h2>
+                <p>How a structured backend can support module management, question banks, assessments and certification tracking in an e-training platform.</p>
+                <ul class="article-points">
+                    <li>Separating modules, questions and attempts into clearer data responsibilities</li>
+                    <li>Designing endpoints around assessment workflows instead of isolated screens</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>FastAPI</span>
+                    <span>PostgreSQL</span>
+                    <span>Assessment flow</span>
+                </div>
+            </article>
+
+            <article class="blog-card" data-search="php mysql dashboard eduhub tuition management">
+                <div class="card-top">
+                    <span class="pill">Web systems</span>
+                </div>
+                <h2>What I Learned Building EduHub Center</h2>
+                <p>Lessons from creating a tuition center management system with student records, payment tracking and an admin dashboard.</p>
+                <ul class="article-points">
+                    <li>Turning admin requirements into practical database-backed features</li>
+                    <li>Making payment and student information easier to track from one dashboard</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>PHP</span>
+                    <span>JavaScript</span>
+                    <span>MySQL</span>
+                </div>
+            </article>
+
+            <article class="blog-card" data-search="frontend portfolio html css javascript ui ux recruiter">
+                <div class="card-top">
+                    <span class="pill">Frontend</span>
+                </div>
+                <h2>Building a Recruiter-Friendly Developer Portfolio</h2>
+                <p>How strong hierarchy, responsive layouts and clear project storytelling make a portfolio easier to review for internships and future roles.</p>
+                <ul class="article-points">
+                    <li>Prioritizing role, impact and technology over decorative content</li>
+                    <li>Using responsive layout and readable sections for faster recruiter scanning</li>
+                </ul>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Alyaa Fasihah E-Portfolio.</p>
+        <div class="footer-links">
+            <a href="https://github.com/AlyaaCode" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/alyaafasihah" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="mailto:alyaafasihahmohamad@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

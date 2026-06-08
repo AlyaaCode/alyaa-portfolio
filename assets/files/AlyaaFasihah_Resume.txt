@@ -1,0 +1,41 @@
+Alyaa Fasihah Mohamad
+Software Developer | Future Full Stack Engineer
+
+Email: alyaafasihahmohamad@gmail.com
+GitHub: https://github.com/AlyaaCode
+LinkedIn: https://linkedin.com/in/alyaafasihah
+
+Professional Summary
+Final-year Bachelor of Computer Science (Software Development) student with experience in web development, databases and software projects. Passionate about building user-friendly and meaningful digital solutions.
+
+Education
+Bachelor of Computer Science (Software Development), UniSZA
+CGPA: 3.79
+Dean's List: 5/5 semesters
+
+Diploma in Digital Technology (Software Development)
+CGPA: 3.91
+Dean's List: 5/5 semesters
+
+Projects
+MalaX - Malaria E-Training and Competency Assessment System
+Technologies: FastAPI, Ionic Angular, PostgreSQL
+Features: module management, question bank management, assessments, certification tracking
+
+EduHub Center - Tuition Center Management System
+Technologies: PHP, JavaScript, MySQL
+Features: student management, payment tracking, dashboard
+
+Experience
+Junior Web Programmer and Marketing Executive
+Afeeya Group, 2021-2022
+Responsibilities: website maintenance, WordPress development, IT support
+
+Achievement
+Top 3 Startup Idea Competition, HatchQuest 2025
+
+Skills
+Frontend: HTML, CSS, JavaScript, Angular, Bootstrap, Tailwind
+Backend: PHP, Python, FastAPI, CodeIgniter 4
+Database: MySQL, PostgreSQL
+Tools: Git, GitHub, VS Code, Figma, Draw.io
